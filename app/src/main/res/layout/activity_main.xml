@@ -33,6 +33,18 @@
                 android:layout_height="wrap_content"
                 android:text="补间动画"/>
 
+            <Button
+                android:id="@+id/activity4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="蝴蝶飞舞"/>
+
+            <Button
+                android:id="@+id/activity5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="自定义补间动画"/>
+
         </LinearLayout>
 
 
