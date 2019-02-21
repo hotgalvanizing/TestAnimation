@@ -20,7 +20,9 @@
         <activity android:name=".BlastActivity" />
         <activity android:name=".TweenActivity" />
         <activity android:name=".BufferFlyActivity" />
-        <activity android:name=".ListViewActivity"></activity>
+        <activity android:name=".ListViewActivity" />
+        <activity android:name=".ObjectAnimatorActivity" />
+        <activity android:name=".ObjectAnimation2Activity"></activity>
     </application>
 
 </manifest>

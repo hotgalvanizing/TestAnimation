@@ -45,6 +45,18 @@
                 android:layout_height="wrap_content"
                 android:text="自定义补间动画"/>
 
+            <Button
+                android:id="@+id/activity6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="属性动画"/>
+
+            <Button
+                android:id="@+id/activity7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="属性动画2"/>
+
         </LinearLayout>
 
 
