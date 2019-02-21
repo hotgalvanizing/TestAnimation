@@ -117,17 +117,6 @@
                 android:layout_height="wrap_content"
                 android:text="双缓冲实现画图板" />
 
-            <Button
-                android:id="@+id/button9"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Dialog" />
-
-            <Button
-                android:id="@+id/button10"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="YCDialog" />
 
         </LinearLayout>
 

@@ -11,8 +11,8 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.LinearLayout;
 
-import com.mx.view.myview.R;
-import com.mx.view.myview.view.DrawView;
+import com.mx.testanimation.R;
+import com.mx.testanimation.view.DrawView;
 
 public class TestDrawView extends AppCompatActivity {
 
@@ -37,12 +37,13 @@ public class TestDrawView extends AppCompatActivity {
         setContentView(line);
 
         emboss = new EmbossMaskFilter(new float[]
-                { 1.5f, 1.5f, 1.5f }, 0.6f,	6, 4.2f);
+                {1.5f, 1.5f, 1.5f}, 0.6f, 6, 4.2f);
         blur = new BlurMaskFilter(8, BlurMaskFilter.Blur.NORMAL);
     }
 
     /**
      * 负责创建选项菜单
+     *
      * @param menu
      * @return
      */
@@ -50,15 +51,14 @@ public class TestDrawView extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = new MenuInflater(this);
         // 装载R.menu.my_menu对应的菜单，并添加到menu中
-        inflater.inflate(R.menu.menu_main,menu);
+        inflater.inflate(R.menu.menu_main, menu);
         return super.onCreateOptionsMenu(menu);
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem mi) {
         // 判断单击的是哪个菜单项，并有针对性地作出响应
-        switch (mi.getItemId())
-        {
+        switch (mi.getItemId()) {
             case R.id.red:
                 drawView.paint.setColor(Color.RED);
                 mi.setChecked(true);
@@ -87,8 +87,6 @@ public class TestDrawView extends AppCompatActivity {
                 drawView.paint.setMaskFilter(emboss);
                 break;
         }
-
-
 
 
         return true;

@@ -24,7 +24,18 @@
         <activity android:name=".activity.ObjectAnimatorActivity" />
         <activity android:name=".activity.ObjectAnimation2Activity" />
         <activity android:name=".activity.SurfaceViewActivity" />
-        <activity android:name=".activity.Main2Activity"></activity>
+        <activity android:name=".activity.Main2Activity"/>
+        <activity android:name=".activity.YouKuMenuActivity" />
+        <activity android:name=".activity.SlideShow" />
+        <activity android:name=".activity.NewTextViewActivity" />
+        <activity android:name=".activity.TopBarActivity" />
+        <activity android:name=".activity.EasyDemo" />
+        <activity android:name=".activity.ShineTextView" />
+        <activity android:name=".activity.TestView" />
+        <activity android:name=".activity.TestDrawView" />
+        <activity android:name=".activity.ConstraintLayout" />
+        <activity android:name=".activity.TestDialog" />
+
     </application>
 
 </manifest>

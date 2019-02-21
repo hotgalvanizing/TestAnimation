@@ -6,7 +6,7 @@
     xmlns:custom="http://schemas.android.com/apk/res-auto"
     tools:context=".activity.TopBarActivity">
 
-    <com.mx.view.myview.view.TopBar
+    <com.mx.testanimation.view.TopBar
         android:id="@+id/topBar"
         android:layout_width="match_parent"
         android:layout_height="40dp"
