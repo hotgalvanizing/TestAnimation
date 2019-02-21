@@ -1,4 +1,4 @@
-package com.mx.testanimation;
+package com.mx.testanimation.view;
 
 import android.graphics.Paint;
 import android.graphics.RadialGradient;

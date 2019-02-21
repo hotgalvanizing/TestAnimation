@@ -4,6 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.BlastActivity">
+    tools:context=".activity.EasyDemo">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="这里没有内容"/>
 
 </android.support.constraint.ConstraintLayout>

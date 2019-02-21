@@ -1,4 +1,4 @@
-package com.mx.testanimation;
+package com.mx.testanimation.view;
 
 import android.graphics.Camera;
 import android.graphics.Matrix;

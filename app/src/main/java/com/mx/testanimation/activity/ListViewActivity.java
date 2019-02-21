@@ -1,4 +1,4 @@
-package com.mx.testanimation;
+package com.mx.testanimation.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -6,6 +6,9 @@ import android.util.DisplayMetrics;
 import android.view.Display;
 import android.view.WindowManager;
 import android.widget.ListView;
+
+import com.mx.testanimation.view.MyAnimation;
+import com.mx.testanimation.R;
 
 public class ListViewActivity extends AppCompatActivity {
 

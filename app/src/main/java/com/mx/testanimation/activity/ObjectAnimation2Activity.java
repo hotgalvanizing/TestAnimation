@@ -1,4 +1,4 @@
-package com.mx.testanimation;
+package com.mx.testanimation.activity;
 
 import android.animation.Animator;
 import android.animation.AnimatorInflater;
@@ -21,6 +21,9 @@ import android.view.View;
 import android.view.animation.AccelerateInterpolator;
 import android.view.animation.DecelerateInterpolator;
 import android.widget.LinearLayout;
+
+import com.mx.testanimation.R;
+import com.mx.testanimation.view.ShapeHolder;
 
 import java.util.ArrayList;
 

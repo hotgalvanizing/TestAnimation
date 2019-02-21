@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.ListViewActivity">
+    tools:context=".activity.Main2Activity">
 
-    <ListView
-        android:id="@+id/list"
+    <com.mx.testanimation.view.CustomerView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:entries="@array/bookArray" />
+        android:layout_height="match_parent"/>
 
 </LinearLayout>

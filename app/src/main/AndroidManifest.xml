@@ -16,13 +16,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".FrameActivity" />
-        <activity android:name=".BlastActivity" />
-        <activity android:name=".TweenActivity" />
-        <activity android:name=".BufferFlyActivity" />
-        <activity android:name=".ListViewActivity" />
-        <activity android:name=".ObjectAnimatorActivity" />
-        <activity android:name=".ObjectAnimation2Activity"></activity>
+        <activity android:name=".activity.FrameActivity" />
+        <activity android:name=".activity.BlastActivity" />
+        <activity android:name=".activity.TweenActivity" />
+        <activity android:name=".activity.BufferFlyActivity" />
+        <activity android:name=".activity.ListViewActivity" />
+        <activity android:name=".activity.ObjectAnimatorActivity" />
+        <activity android:name=".activity.ObjectAnimation2Activity" />
+        <activity android:name=".activity.SurfaceViewActivity" />
+        <activity android:name=".activity.Main2Activity"></activity>
     </application>
 
 </manifest>

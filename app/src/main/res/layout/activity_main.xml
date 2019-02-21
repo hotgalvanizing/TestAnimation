@@ -57,6 +57,78 @@
                 android:layout_height="wrap_content"
                 android:text="属性动画2"/>
 
+            <Button
+            android:id="@+id/activity8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SurfaceView"/>
+
+            <Button
+                android:id="@+id/activity9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="属性对话例子"/>
+
+            <Button
+                android:id="@+id/activity10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="youkumenu"/>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="slideshow" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="New TextView" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TopBar" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EasyDemo" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ShineTextView" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="基础绘图" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="双缓冲实现画图板" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dialog" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="YCDialog" />
+
         </LinearLayout>
 
 

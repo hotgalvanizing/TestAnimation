@@ -1,4 +1,4 @@
-package com.mx.testanimation;
+package com.mx.testanimation.activity;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -10,6 +10,8 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
+
+import com.mx.testanimation.R;
 
 import java.lang.reflect.Field;
 
